@@ -12,11 +12,11 @@
 </head>
 <body>
 
-  <header>
-    <div>
+  <header class="grid">
+    <div class="unit">
       <img class="logo" src="images/logo.svg" alt="...">
     </div>
-    <div>
+    <div class="unit">
       <form method="post" action="...">
         <label for="search"></label>
         <input type="text" id="search">
@@ -24,12 +24,10 @@
     </div>
   </header>
 
-  <main>
-
-    <table border="1">
+  <main class="grid">
+    <table border="1" class="unit">
       <caption>Nearest playgrounds</<caption>
       <tbody>
-        <div>
           <th scope="row">373
             <div>
               <ul>
@@ -38,6 +36,7 @@
               </ul>
             </div>
           </th>
+        <div>
           <th scope="row">1700
             <div>
               <ul>
@@ -46,6 +45,8 @@
               </ul>
             </div>
           </th>
+        </div>
+        <div>
           <th scope="row">960
             <div>
               <ul>
@@ -58,7 +59,7 @@
       </tbody>
     </table>
 
-    <table border="1">
+    <table border="1" class="unit">
       <caption>Playgrounds in the city</caption>
       <thead>
         <tr>
