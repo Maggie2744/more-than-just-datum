@@ -5,3 +5,15 @@ html {
 .logo {
   max-width: 200px;
 }
+
+header {
+  background-color: #ddd;
+}
+
+.main {
+  background-color: #efefef;
+}
+
+.table {
+  background-color: #fff;
+}
